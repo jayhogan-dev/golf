@@ -1,0 +1,14 @@
+{
+  "id": "123456",
+  "name": "Jay Hogan",
+  "ghin": "497207",
+  "verified": true,
+  "image": "https://cdn3.vectorstock.com/i/1000x1000/36/32/person-gray-photo-placeholder-man-vector-23503632.jpg",
+  "backgroundImg": "https://www.tatumranchgc.com/sites/www.tatumranchgc.com/files/styles/content_blocks/public/Tatum_2fg_1934.1200%20%281%29.jpg?itok=7UJSH9-A",
+  "preferences": {
+    "daysOfWeek": ["Mon", "Wed", "Fri", "Sat", "Sun"],
+    "playsGames": true,
+    "games": ["Nassau", "Wolf", "Skins", "Pass the Cash", "The Judge"],
+    "timeOfDay": "Morning"
+  }
+}
