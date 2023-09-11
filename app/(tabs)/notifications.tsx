@@ -1,11 +1,11 @@
-import { View, Text } from "react-native";
+import { Text, View } from "../../components/Themed";
 
 import tw from "twrnc";
 
 export default function NotificationsScreen() {
   return (
     <View style={tw`flex-1 items-center justify-center`}>
-      <Text style={tw`text-lg font-bold text-red-300`}>Notification Page</Text>
+      <Text style={tw`text-lg font-bold`}>Notifications</Text>
     </View>
   );
 }

@@ -25,7 +25,7 @@ export default function TabLayout() {
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme ?? "light"].tint,
         tabBarStyle: {
-          backgroundColor: "#003161",
+          backgroundColor: "#00172d",
         },
         headerStyle: {
           backgroundColor: "#00172d",
@@ -45,12 +45,12 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="search"
+        name="games"
         options={{
-          title: "Search",
+          title: "Games",
           tabBarIcon: ({ color }) => (
             <TabBarIcon
-              name="search"
+              name="table"
               color={color}
             />
           ),
@@ -69,24 +69,24 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="games"
-        options={{
-          title: "Games",
-          tabBarIcon: ({ color }) => (
-            <TabBarIcon
-              name="table"
-              color={color}
-            />
-          ),
-        }}
-      />
-      <Tabs.Screen
         name="notifications"
         options={{
           title: "Notifications",
           tabBarIcon: ({ color }) => (
             <TabBarIcon
               name="bell"
+              color={color}
+            />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="preferences"
+        options={{
+          title: "Preferences",
+          tabBarIcon: ({ color }) => (
+            <TabBarIcon
+              name="check-square"
               color={color}
             />
           ),
