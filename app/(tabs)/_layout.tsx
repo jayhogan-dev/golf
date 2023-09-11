@@ -24,6 +24,12 @@ export default function TabLayout() {
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme ?? "light"].tint,
+        tabBarStyle: {
+          backgroundColor: "#00172d",
+        },
+        headerStyle: {
+          backgroundColor: "#00172d",
+        },
       }}
     >
       <Tabs.Screen
@@ -33,30 +39,6 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => (
             <TabBarIcon
               name="home"
-              color={color}
-            />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="search"
-        options={{
-          title: "Search",
-          tabBarIcon: ({ color }) => (
-            <TabBarIcon
-              name="search"
-              color={color}
-            />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="groups"
-        options={{
-          title: "Create a Group",
-          tabBarIcon: ({ color }) => (
-            <TabBarIcon
-              name="users"
               color={color}
             />
           ),
@@ -75,12 +57,36 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="groups"
+        options={{
+          title: "Create a Group",
+          tabBarIcon: ({ color }) => (
+            <TabBarIcon
+              name="users"
+              color={color}
+            />
+          ),
+        }}
+      />
+      <Tabs.Screen
         name="notifications"
         options={{
           title: "Notifications",
           tabBarIcon: ({ color }) => (
             <TabBarIcon
               name="bell"
+              color={color}
+            />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="preferences"
+        options={{
+          title: "Preferences",
+          tabBarIcon: ({ color }) => (
+            <TabBarIcon
+              name="check-square"
               color={color}
             />
           ),
