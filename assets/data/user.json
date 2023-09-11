@@ -8,7 +8,7 @@
   "preferences": {
     "daysOfWeek": ["Mon", "Wed", "Fri", "Sat", "Sun"],
     "playsGames": true,
-    "games": ["Nassau", "Wolf", "Skins", "Pass the Cash", "The Judge"],
+    "preferredGames": ["Nassau", "Wolf", "Skins", "Pass the Cash", "The Judge"],
     "timeOfDay": "Morning"
   }
 }
